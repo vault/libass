@@ -487,7 +487,7 @@ FT_Glyph ass_font_get_glyph(void *fontconfig_priv, ASS_Font *font,
     }
     if (!(face->style_flags & FT_STYLE_FLAG_ITALIC) &&
         (font->desc.italic > 55)) {
-        FT_GlyphSlot_Oblique(face->glyph);
+        /*FT_GlyphSlot_Oblique(face->glyph);*/
     }
 
     if (!(face->style_flags & FT_STYLE_FLAG_BOLD) &&
