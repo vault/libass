@@ -16,7 +16,7 @@ LOCAL_SRC_FILES := \
 	libass/ass_strtod.c 
 
 LOCAL_MODULE := ass
-LOCAL_STATIC_LIBRARIES := fontconfig ft2 expat
+#LOCAL_STATIC_LIBRARIES := fontconfig ft2 expat
 
 LOCAL_C_INCLUDES := \
 	$(LOCAL_PATH)/../fontconfig/ \
